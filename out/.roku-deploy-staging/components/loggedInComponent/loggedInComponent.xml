@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="loggedInComponent" extends="commonFields" initialFocus="playButton" >
+  <children>
+    <LayoutGroup id="layoutGroupId" layoutDirection="horiz" horizAlignment="left" translation="[0,0]" itemSpacings="[200, 300]">
+    
+    <Rectangle width="1920" height="1080" color="#000000">
+      <Rectangle id="markUpGridBackground" width="120" height="1080" color="#999999" translation="[0,0]">
+        
+          <group id="markUpGridGroup" translation="[0,0]">
+            <MarkupGrid
+            translation="[10,100]"
+            vertFocusAnimationStyle="floatingFocus"
+            numColumns="1"
+            numRows="5"
+            id="leftMarkUpGridList"
+            itemComponentName="leftMarkUpGridListItemComponent" 
+            itemSpacing="[0, 40]"
+            itemSize = "[ 100, 100 ]"
+            />
+            <Animation 
+              id = "leftMarkUpGridListAnimation" 
+              duration = "0.25" 
+              easeFunction = "linear" >
+              <Vector2DFieldInterpolator 
+                key = "[ 0.0, 0.5, 1.0 ]" 
+                keyValue = "[ [ 70, 100 ], [150,100], [240, 100] ]" 
+                fieldToInterp = "leftMarkUpGridList.itemSize" />
+            </Animation>
+  
+            <Animation 
+                id = "leftMarkUpGridListAnimationWhenUnfocused" 
+                duration = "0.25" 
+                easeFunction = "linear" >
+                <Vector2DFieldInterpolator 
+                  key = "[ 0.0, 0.5, 1.0 ]" 
+                  keyValue = "[ [240, 100], [150,100], [ 70, 100 ]]" 
+                  fieldToInterp = "leftMarkUpGridList.itemSize"
+                />
+            </Animation>
+  
+            <Animation 
+              id = "markUpGridBackgroundWhenFocused" 
+              duration = "0.25" 
+              easeFunction = "linear" >
+              <FloatFieldInterpolator 
+                key = "[ 0.0, 0.5, 1.0 ]" 
+                keyValue = "[ [90], [150], [250] ]" 
+                fieldToInterp = "markUpGridBackground.width"
+              />
+            </Animation>
+  
+            <Animation 
+                id = "markUpGridBackgroundWhenUnfocused"
+                duration = "0.25" 
+                easeFunction = "linear" >
+                <FloatFieldInterpolator 
+                  key = "[ 0.0, 0.5, 1.0 ]" 
+                  keyValue = "[ [250], [150], [90] ]" 
+                  fieldToInterp = "markUpGridBackground.width"
+                />
+            </Animation>
+          </group>
+          
+        
+        
+      </Rectangle>
+      <Rectangle translation="[0, 0]">
+        <!-- <group id="playButtonGroup" translation="[0,0]">
+          <Button id="playButton" minWidth="50" maxWidth="100" text="Play" translation="[580, 350]" focusedIconUri=" " iconUri=" " />
+        </group> -->
+        <group id="homeComponentGroupId" visible="true" translation="[0,0]">
+          <homeComponent id="homeComponentId" />
+        </group>
+        <group id="searchComponentGroupId">
+          <searchComponent id="searchComponentId" visible="false" translation="[0,0]"/>
+        </group>
+        <group id="profileComponentGroupId">
+          <profileComponent id="profileComponentId" visible="false" translation="[0,0]"/>
+        </group>
+        <group id="timeGridComponentGroupId">
+          <timeGridComponent id="timeGridComponentId" visible="false" translation="[250,300]"/>
+        </group>
+        
+      </Rectangle>
+    </Rectangle>
+  </LayoutGroup>
+  </children>
+  <script type="text/brightscript" uri="loggedInComponent.brs" />
+</component>

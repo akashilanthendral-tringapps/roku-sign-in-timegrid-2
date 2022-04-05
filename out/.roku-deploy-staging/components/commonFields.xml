@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<component name="commonFields" extends="Group">
+    <interface>
+        <field id="fromParentData" type="assocArray" onChange="handleFromParentData" />
+        <field id="toParentData" type="assocArray" />
+        <field id="fromChildData" type="assocArray" onChange="handleChildData" />
+        <field id="toChildData" type="assocArray" />
+    </interface>
+</component>

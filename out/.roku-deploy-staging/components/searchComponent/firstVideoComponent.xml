@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="firstVideoComponent" extends="Group" initialFocus="firstVideo">
+    <script type="text/brightscript" uri="firstVideoComponent.brs" />
+    <interface>
+        <field id="itemContent" type="node" onChange="setContent" />
+        <field id="videoReceivedFocus" type="boolean" onChange="onVideoReceivedFocus" />
+    </interface>
+    <children>
+        <Rectangle width="1920" height="1080" color="#000000">
+            <Video
+            id="firstVideo"
+            height="300"
+            width="800"
+            translation="[0,0]"
+            />
+        </Rectangle>
+    </children>
+    <!-- <Rectangle width="1920" height="1080" color="#000000">
+         Play the video here 
+        <Video
+            id="videoId"
+            width="1280"
+            height="720"
+            translation="[0,0]"
+        />
+    </Rectangle> -->
+</component>

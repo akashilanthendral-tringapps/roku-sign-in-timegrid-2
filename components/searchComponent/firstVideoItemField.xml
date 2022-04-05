@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="firstVideoItemField" extends="ContentNode">
+    <interface>
+        <field id="videoUrl" type="string" />
+        <field id="videoTitle" type="String"/>
+        <field id="videoStreamFormat" type="String"/>
+        <field id="videoControl" type="String"/>
+    </interface>
+    
+</component>

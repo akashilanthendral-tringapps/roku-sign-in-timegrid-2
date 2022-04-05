@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="searchComponent" extends="Group" initialFocus="firstVideoMUG">
+    <script type="text/brightscript" uri="searchComponent.brs" />
+    <interface>
+        <field id="setFocus" type="boolean" onChange="onSetFocus" alwaysNotify="true" />
+    </interface>
+    <children>
+        
+        <LayoutGroup translation="[300, 200]">
+            <MarkupGrid id="firstVideoMUG" itemComponentName="firstVideoComponent" numColumns="1" numRows="1" itemSize="[800, 600]"  />
+        </LayoutGroup>
+        
+        
+    </children>
+</component>

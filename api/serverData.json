@@ -1,0 +1,103 @@
+{
+    "channels": [
+        {
+            "name": "Channel 1",
+            "program": [
+                {
+                    "program_title": "Comics Unleashed With Byron Allen",
+                    "duration": 1800,
+                    "starts_at": 1648531800,
+                    "ends_at": 1648533600
+                },
+                {
+                    "program_title": "Paid Programming",
+                    "duration": 1800,
+                    "starts_at": 1648533600,
+                    "ends_at": 1648535400
+                },
+                {
+                    "program_title": "Gladys Knight, O'Jays, Commodores",
+                    "duration": 1800,
+                    "starts_at": 1648535400,
+                    "ends_at": 1648537200
+                },
+                {
+                    "program_title": "Gladys Knight, O'Jays, Commodores",
+                    "duration": 1800,
+                    "starts_at": 1648537200,
+                    "ends_at": 1648539000
+                },
+                {
+                    "program_title": "Paid Programming",
+                    "duration": 1800,
+                    "starts_at": 1648539000,
+                    "ends_at": 1648540800
+                }
+            ]
+        },
+        {
+            "name": "Channel 2",
+            "program": [
+                {
+                    "program_title": "Comics Unleashed With Byron Allen",
+                    "duration": 900,
+                    "starts_at": 1648532700,
+                    "ends_at": 1648533600
+                },
+                {
+                    "program_title": "Paid Programming",
+                    "duration": 900,
+                    "starts_at": 1648533600,
+                    "ends_at": 1648534500
+                },
+                {
+                    "program_title": "Gladys Knight, O'Jays, Commodores",
+                    "duration": 900,
+                    "starts_at": 1648534500,
+                    "ends_at": 1648535400
+                },
+                {
+                    "program_title": "Gladys Knight, O'Jays, Commodores",
+                    "duration": 900,
+                    "starts_at": 1648535400,
+                    "ends_at": 1648536300
+                },
+                {
+                    "program_title": "Paid Programming",
+                    "duration": 900,
+                    "starts_at": 1648536300,
+                    "ends_at": 1648537200
+                }
+            ]
+        },
+        {
+            "name": "Channel 3",
+            "program": [
+                {
+                    "program_title": "Comics Unleashed With Byron Allen",
+                    "duration": 3599,
+                    "starts_at": 1648530002,
+                    "ends_at": 1648533601
+                },
+                {
+                    "program_title": "Paid Programming",
+                    "duration": 3599,
+                    "starts_at": 1648533601,
+                    "ends_at": 1648537200
+                },
+                {
+                    "program_title": "Gladys Knight, O'Jays, Commodores",
+                    "duration": 3599,
+                    "starts_at": 1648537200,
+                    "ends_at": 1648540799
+                },
+                {
+                    "program_title": "Gladys Knight, O'Jays, Commodores",
+                    "duration": 3600,
+                    "starts_at": 1648540799,
+                    "ends_at": 1648544399
+                }
+            ]
+        }
+    ]
+}
