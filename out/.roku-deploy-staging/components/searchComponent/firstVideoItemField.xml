@@ -5,6 +5,7 @@
         <field id="videoTitle" type="String"/>
         <field id="videoStreamFormat" type="String"/>
         <field id="videoControl" type="String"/>
+        <field id="increaseVideoSize" type="String"/>
     </interface>
     
 </component>

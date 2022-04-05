@@ -59,10 +59,15 @@ sub onMarkUpGridSelected()
 end sub
 
 sub renderComponent()
+
     selectedItemIndex = m.leftMarkUpGridList.itemSelected
     selectedItem = m.leftMarkUpGridList.content.getChild(selectedItemIndex)
     compName = selectedItem.componentName
     compToRender = m.top.findNode(compName)
+
+    m.leftMarkUpGridListAnimationWhenUnfocused.control = "start"
+    m.markUpGridBackgroundWhenUnfocused.control = "start"
+
     m.previousComp.setFocus = false
     m.previousComp.visible = false
     m.previousComp = compToRender

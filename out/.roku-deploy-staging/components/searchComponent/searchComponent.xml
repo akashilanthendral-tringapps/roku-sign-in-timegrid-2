@@ -6,8 +6,8 @@
     </interface>
     <children>
         
-        <LayoutGroup translation="[300, 200]">
-            <MarkupGrid id="firstVideoMUG" itemComponentName="firstVideoComponent" numColumns="1" numRows="1" itemSize="[800, 600]"  />
+        <LayoutGroup id="outerLayoutGroup" translation="[300, 400]">
+            <MarkupGrid id="firstVideoMUG" itemComponentName="firstVideoComponent" numColumns="1" numRows="1" itemSize="[600, 300]"  />
         </LayoutGroup>
         
         
